@@ -20,6 +20,7 @@ const App = () => {
             <Users />
           </Route>
           <Route path="/:userId/places" exact>
+            {" "}
             <UserPlaces />
           </Route>
 
